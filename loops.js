@@ -4,7 +4,7 @@ function forLoop (array) {
       var stringOne = "I am 1 strange loop.";
           array = array.push (stringOne);
     } else {
-      var stringMoreThanOne = "I am ${i} strange loops.";
+      var stringMoreThanOne = "I am " + i + "strange loops.";
           array = array.push (stringMoreThanOne);
     }
 return array;
